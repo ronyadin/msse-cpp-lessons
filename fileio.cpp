@@ -24,7 +24,7 @@ int main(void)
     std::string name;
     double x, y, z;
 
-    infile >> n >> y >> x >> y >> z;
+    infile >> n >> name >>  x >> y >> z;
     std::cout << "n = "  << n << std::endl;
     std::cout << "name = "  << name << std::endl;
     std::cout << "x,y,z = "  << x << " " << y << " " << z << std::endl;
